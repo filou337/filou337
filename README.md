@@ -78,9 +78,10 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=filou337&layout=compact&langs_count=8&hide=jupyter%20notebook&theme=github_dark&bg_color=00000000">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=filou337&layout=compact&langs_count=8&hide=jupyter%20notebook&bg_color=00000000" height="160" alt="Top languages">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=filou337&layout=compact&langs_count=8&theme=github_dark&bg_color=00000000">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=filou337&layout=compact&langs_count=8&bg_color=00000000" height="160" alt="Top languages">
 </picture>
+
 
 </div>
 
