@@ -145,6 +145,13 @@ jobs:
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        <p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/filou337/filou337/output/snake-dark.svg">
+    <img alt="snake animation" src="https://raw.githubusercontent.com/filou337/filou337/output/snake.svg">
+  </picture>
+</p>
+
 
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1E90FF,100:8A2BE2&height=120&section=footer" alt="Footer wave">
