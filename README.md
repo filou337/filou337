@@ -1,8 +1,5 @@
 
 
-from datetime import date
-
-overview = r"""
 <h1 align="center">Hi, I'm Philippe Roumbo 👋</h1>
 <p align="center">
   <b>Master's student in Big Data & Business Intelligence (USPN) • Data Analyst • Passionate about AI, ML & Econometrics</b><br/>
