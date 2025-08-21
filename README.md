@@ -114,14 +114,38 @@ Reach me on **LinkedIn** (preferred) or by email.
 - Reproducible code, clean README files, and well-documented notebooks.  
 - Privacy-aware & ethics-conscious use of data and AI.
 
-<!-- Optional: contribution snake (enable once your workflow outputs the SVGs)
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/filou337/filou337/output/snake-dark.svg">
-    <img alt="snake animation" src="https://raw.githubusercontent.com/filou337/filou337/output/snake.svg">
-  </picture>
-</p>
--->
+---
+---
+name: 🐍 Generate snake contributions
+
+on:
+  schedule:
+    - cron: "0 0 * * *"    # génère chaque jour (UTC)
+  workflow_dispatch:        # permet de lancer manuellement
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write       # nécessaire pour pousser sur la branche "output"
+
+    steps:
+      - name: Generate snake SVGs
+        uses: Platane/snk@v3
+        with:
+          github_user_name: filou337
+          outputs: |
+            dist/snake.svg?palette=github-light
+            dist/snake-dark.svg?palette=github-dark
+
+      - name: Push SVGs to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1E90FF,100:8A2BE2&height=120&section=footer" alt="Footer wave">
 
