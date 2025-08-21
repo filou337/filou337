@@ -97,7 +97,3 @@
 <sub>Last updated: """ + date.today().isoformat() + r""" • Made with ❤️ and a lot of coffee.</sub>
 """
 
-with open("/mnt/data/README_Profile_EN.md", "w", encoding="utf-8") as f:
-    f.write(overview.strip())
-
-"/mnt/data/README_Profile_EN.md"
