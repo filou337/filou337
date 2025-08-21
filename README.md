@@ -64,7 +64,7 @@
 
 ---
 
-### 📊 Stats (dark-mode aware)
+### 📊 Stats 
 <div align="center">
 
 <picture>
