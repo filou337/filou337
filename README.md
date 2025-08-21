@@ -74,49 +74,6 @@
 
 ---
 
-## 🐍 Contribution graph (animated)
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/filou337/filou337/output/snake-dark.svg">
-    <img alt="snake animation" src="https://raw.githubusercontent.com/filou337/filou337/output/snake.svg">
-  </picture>
-</p>
-
-> The snake SVG is generated daily via GitHub Actions (see workflow file below).
-# Retry writing only into allowed folder
-with open("/mnt/data/snake.yml", "w", encoding="utf-8") as f:
-    f.write("""name: 🐍 Generate snake contributions
-
-on:
-  schedule:
-    - cron: "0 0 * * *"   # every day at 00:00 UTC
-  workflow_dispatch:
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Generate snake SVG
-        uses: Platane/snk@v3
-        with:
-          github_user_name: filou337
-          outputs: |
-            dist/snake.svg?palette=github-light
-            dist/snake-dark.svg?palette=github-dark
-
-      - name: Push SVG to 'output' branch
-        uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-""")
-
-"/mnt/data/snake.yml"
-
----
 
 ## 💼 Collaboration & Contact
 I’m open to **Data Analyst** / **Data Scientist** roles, internships, or consulting missions.  
