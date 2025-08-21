@@ -116,19 +116,17 @@ Reach me on **LinkedIn** (preferred) or by email.
 
 ---
 ---
-name: 🐍 Generate snake contributions
 
+name: 🐍 Generate snake contributions
 on:
   schedule:
-    - cron: "0 0 * * *"    # génère chaque jour (UTC)
-  workflow_dispatch:        # permet de lancer manuellement
-
+    - cron: "0 0 * * *"
+  workflow_dispatch:
 jobs:
   generate:
     runs-on: ubuntu-latest
     permissions:
-      contents: write       # nécessaire pour pousser sur la branche "output"
-
+      contents: write
     steps:
       - name: Generate snake SVGs
         uses: Platane/snk@v3
@@ -137,7 +135,6 @@ jobs:
           outputs: |
             dist/snake.svg?palette=github-light
             dist/snake-dark.svg?palette=github-dark
-
       - name: Push SVGs to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
@@ -145,12 +142,6 @@ jobs:
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/filou337/filou337/output/snake-dark.svg">
-    <img alt="snake animation" src="https://raw.githubusercontent.com/filou337/filou337/output/snake.svg">
-  </picture>
-</p>
 
 
 
