@@ -99,12 +99,14 @@
 ### 💼 Collaboration & Contact
 I’m open to **Data Analyst** / **Data Scientist** roles, internships, or consulting missions.  
 Reach me on **LinkedIn** (preferred) or by email.
+
 <p>
   <a href="https://www.linkedin.com/in/philippe-roumbo" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white"></a>
   <a href="mailto:your.email@example.com"><img alt="Email" src="https://img.shields.io/badge/Email-Contact%20me!-D14836?logo=gmail&logoColor=white"></a>
   <a href="https://github.com/filou337?tab=repositories"><img alt="More projects" src="https://img.shields.io/badge/More%20projects-Explore%20repos-181717?logo=github"></a>
 </p>
 
+---
 ---
 
 ### 🔎 How I work
