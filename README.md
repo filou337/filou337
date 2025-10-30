@@ -25,7 +25,7 @@
 - **Econometrics** — OLS/GLM, LOGIT/PROBIT, **SARIMAX**, PCA → robust, interpretable insights.
 - **ML for business** — classification, segmentation, forecasting; focus on explainability & impact.
 
-> 🏆 Highlight: 2nd place at an entrepreneurship competition (AI-assisted brainstorming platform).
+> 🏆 Highlight: 2nd place at an entrepreneurship competition .
 
 ---
 
