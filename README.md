@@ -97,7 +97,7 @@
 ---
 
 ### 💼 Collaboration & Contact
-I’m open to **Data Analyst** / **Data Scientist** roles, internships, or consulting missions.  
+I’m open to **Data Analyst** / **Data Scientist**/**Data Engeenier** and **BI Analyst** roles, internships, or consulting missions.  
 Reach me on **LinkedIn** (preferred) or by email.
 
 <p>
