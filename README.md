@@ -132,8 +132,9 @@
 ## 🏆 Réalisations
 
 - 🎓 **Master Big Data & Business Intelligence** – Université Sorbonne Paris Nord  
-- 🥈 **2ᵉ place** à un concours d’entrepreneuriat (projet data / IA)  
-- 👨‍🏫 Expérience de **tutorat / accompagnement d’étudiants** → documentation claire & pédagogie dans les notebooks
+- 🥈 **2ᵉ place** à un concours d’entrepreneuriat 
+- 👨‍🏫 Expérience de **tutorat / accompagnement d’étudiants ** → documentation claire & pédagogie dans les notebooks
+
 
 ---
 
