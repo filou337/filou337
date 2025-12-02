@@ -34,7 +34,7 @@
 
 > 🎓 Étudiant en Master **Big Data & Business Intelligence** – Université Sorbonne Paris Nord  
 > 🧠 Passionné par **l’IA, le Machine Learning et l’économétrie appliquée**  
-> 🥈 **2ᵉ place** à un concours d’entrepreneuriat
+
 
 ---
 
@@ -132,7 +132,6 @@
 ## 🏆 Réalisations
 
 - 🎓 **Master Big Data & Business Intelligence** – Université Sorbonne Paris Nord  
-- 🥈 **2ᵉ place** à un concours d’entrepreneuriat 
 - 👨‍🏫 Expérience de **tutorat / accompagnement d’étudiants ** → documentation claire & pédagogie dans les notebooks
 
 
